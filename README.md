@@ -7,7 +7,7 @@ HeartSync is more than just a dating app—it's a symphony of connections orches
 <h2>Features</h2>
 
 <b>Musical Matchmaking:</b> Find connections based on shared music tastes. <n/>
-<b>Seamless Chats:</b> Engage in meaningful conversations with potential matches. <n/>
+<b>Seamless Chats:</b> Engage in meaningful conversations with potential matches. </n>
 <b>Face Reveal:</b> Unlock the faces behind the hearts after exchanging 100 messages.
 
 <h2>How to Run</h2>
