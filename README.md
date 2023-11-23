@@ -1,7 +1,7 @@
 # HeartSync
 💖 HeartSync: Harmony in Connections
 
-HeartSync 🎵💖
+<h1>HeartSync 🎵💖</h1>
 
 HeartSync is more than just a dating app—it's a symphony of connections orchestrated by shared music preferences and passions. Dive into a world where genuine connections are fostered through the magic of music. Swipe, chat, and let HeartSync be the soundtrack to your love story.
 Features
