@@ -26,10 +26,6 @@ HeartSync is more than just a dating app—it's a symphony of connections orches
 - **Feedback Mechanism:** Help us improve! Provide feedback on your HeartSync experience through the app. We value your input in making HeartSync better with each update.
 
 ## How to Run
-...
-
-
-## How to Run
 
 ### Prerequisites
 - [.NET MAUI SDK](https://dotnet.microsoft.com/maui) installed on your machine.
