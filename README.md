@@ -19,25 +19,20 @@ HeartSync is more than just a dating app—it's a symphony of connections orches
 
 1. Clone the repository to your local machine.
 
-    bash
-
-git clone https://github.com/your-username/heartsync.git
+        git clone https://github.com/your-username/heartsync.git
 
 2. Navigate to the project directory.
+   
+        cd heartsync
 
-    bash
-    cd heartsync
+4. Open the solution in Visual Studio or your preferred IDE.
 
-3. Open the solution in Visual Studio or your preferred IDE.
+5. Build and run the HeartSync MAUI app.
+        
+        dotnet build
+        dotnet run --project src/HeartSync/HeartSync.maui.csproj
 
-4. Build and run the HeartSync MAUI app.
-
-bash
-
-    dotnet build
-    dotnet run --project src/HeartSync/HeartSync.maui.csproj
-
-5. Experience the magic of HeartSync on your local machine!
+6. Experience the magic of HeartSync on your local machine!
 
 <h2>Contributing</h2>
 
