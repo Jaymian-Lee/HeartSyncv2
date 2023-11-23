@@ -13,7 +13,7 @@ HeartSync is more than just a dating app—it's a symphony of connections orches
 <h2>How to Run</h2>
 <h3>Prerequisites</h3>
 
-<a href="https://dotnet.microsoft.com/en-us/apps/maui" target="blank">.NET MAUI SDK</a> installed on your machine.
+<a href="https://dotnet.microsoft.com/en-us/apps/maui">.NET MAUI SDK</a> installed on your machine.
 
 <h3>Steps</h3>
 
