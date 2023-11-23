@@ -12,26 +12,34 @@
                 Margin="0,30,0,0"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
-
             <Label
-                Text="Spark Connections, Ignite Love."
-                Style="{StaticResource Headline}"
-                TextColor="#000"
-                SemanticProperties.HeadingLevel="Level1" />
+                                Margin="0,20,0,0"
 
-            <Label
-                Text="Welcome to HeartSync"
-                Style="{StaticResource SubHeadline}"
+                Text="Login to HeartSync"
+                FontSize="30"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                SemanticProperties.Description="Welcome to HeartSync!" />
+            <Entry
+                Margin="0,20,0,0"
+                x:Name="entryUsernameInput"
+                Placeholder="Username"
                 TextColor="#000"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+                SemanticProperties.Hint="username" />
+
+            <Entry
+                x:Name="entryPasswordInput"
+                Placeholder="Pssst, your password is needed"
+                TextColor="#000"
+                IsPassword="True"
+                SemanticProperties.Hint="password"/>
 
             <Button
-                x:Name="CounterBtn"
-                Text="Click me" 
+                x:Name="btnLoginClicked"
+                Text="Login" 
                 BackgroundColor="#AA4343"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
+                SemanticProperties.Hint="Login button"
+                Clicked="LoginClicked"
                 HorizontalOptions="Fill" />
         </VerticalStackLayout>
     </ScrollView>

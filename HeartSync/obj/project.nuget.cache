@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H3uVwQouEzOxhUqHXucy448YeXmkzpdlx9mp2QoTcBEHf+Rm48ZBorHaO4tYsoHeeOaAKcIOOoQFv0kgmXmB8Q==",
+  "dgSpecHash": "AUR/cCtbqk3/L7qa1gsDwD8tq8pq8LTAp/i309Zv5uCm52BkOU7AEN9vPfWo5ghUwuk2yw9o7EDBUpyOr6OO8g==",
   "success": true,
-  "projectFilePath": "D:\\HeartSync\\HeartSync\\HeartSync.csproj",
+  "projectFilePath": "D:\\repositories\\HeartSync\\HeartSync\\HeartSync.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jayre\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\jayre\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

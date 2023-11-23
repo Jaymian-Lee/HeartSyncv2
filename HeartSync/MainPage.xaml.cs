@@ -2,23 +2,39 @@
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
 
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
+        private void LoginClicked(object sender, EventArgs e)
         {
-            count++;
+            string currentUsername = entryUsernameInput.Text;
+            string currentPassword = entryPasswordInput.Text;
 
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
+            string staticUsername = "Jaymian-Lee";
+            string staticPassword = "Sjee";
+
+            if ( currentPassword == staticPassword && currentUsername == staticUsername)
+            {
+
+                DisplayAlert("Succesful", "Welcome to Heartsync " + staticUsername, "Okay!");
+
+                try
+                {
+                    Navigation.PushAsync(new View.Homepage(staticUsername));
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("Navigation Exception: " + ex.Message);
+                }
+            }
             else
-                CounterBtn.Text = $"Clicked {count} times";
+            {
+                DisplayAlert("Error", "Username or Password is incorrect", "OK");
+            }
 
-            SemanticScreenReader.Announce(CounterBtn.Text);
         }
     }
 
