@@ -1,47 +1,97 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="HeartSync.MainPage">
+             x:Class="HeartSync.MainPage"
+             Style="{StaticResource AppBackgroundStyle}">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
-            <Image
-                Source="banner_heartsync.png"
-                Margin="0,30,0,0"
-                Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a race car number eight" />
-            <Label
-                                Margin="0,20,0,0"
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
 
-                Text="Login to HeartSync"
-                FontSize="30"
-                FontAttributes="Bold"
-                HorizontalOptions="Center"
-                SemanticProperties.Description="Welcome to HeartSync!" />
-            <Entry
-                Margin="0,20,0,0"
-                x:Name="entryUsernameInput"
-                Placeholder="Username"
-                TextColor="#000"
-                SemanticProperties.Hint="username" />
+        <!-- Image above the label without white background -->
+        <Image
+            Grid.Row="0"
+            Source="banner_heartsync.png"
+            Margin="10,30,10,30"
+            Aspect="AspectFit"
+            SemanticProperties.Description="Header image" />
 
-            <Entry
-                x:Name="entryPasswordInput"
-                Placeholder="Pssst, your password is needed"
-                TextColor="#000"
-                IsPassword="True"
-                SemanticProperties.Hint="password"/>
+        <!-- White background for elements below the label -->
+        <Frame 
+            Grid.Row="1"
+            CornerRadius="16"
+            Padding="20"
+            BackgroundColor="White">
 
-            <Button
-                x:Name="btnLoginClicked"
-                Text="Login" 
-                BackgroundColor="#AA4343"
-                SemanticProperties.Hint="Login button"
-                Clicked="LoginClicked"
-                HorizontalOptions="Fill" />
-        </VerticalStackLayout>
-    </ScrollView>
+            <StackLayout Padding="30,0" Spacing="25">
+                <Label
+                    Margin="0,20,0,0"
+                    Text="Login to HeartSync"
+                    FontSize="30"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    SemanticProperties.Description="Welcome to HeartSync!" />
 
+                <Entry
+                    Margin="0,20,0,0"
+                    x:Name="entryUsernameInput"
+                    Placeholder="Username"
+                    TextColor="#000"
+                    SemanticProperties.Hint="username" />
+
+                <Entry
+                    x:Name="entryPasswordInput"
+                    Placeholder="Pssst, your password is needed"
+                    TextColor="#000"
+                    IsPassword="True"
+                    SemanticProperties.Hint="password"/>
+
+                <Button
+                    x:Name="btnLogin"
+                    Text="Login" 
+                    BackgroundColor="#AA4343"
+                    SemanticProperties.Hint="Login button"
+                    FontSize="24"
+                    CornerRadius="16"
+                    Clicked="LoginClicked"
+                    HorizontalOptions="Fill" 
+                    Margin="0,0,0,-10"/>
+                
+                <Label 
+                    x:Name="lblResetPassword"
+                    Text="I forgot my password"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="Center"
+                    FontSize="16"
+                    FontFamily="OpenSansSemibold"/>
+                
+                <Button
+                    x:Name="btnResetPassword"
+                    Text="Click here!"
+                    TextColor="#2A3E93"
+                    FontAttributes="Bold"
+                    FontSize="16"
+                    FontFamily="OpenSansSemibold"
+                    BackgroundColor="Transparent"
+                    Margin="0,-30,0,-20"
+                    Clicked="ResetClicked"/>
+
+                <Button
+                    x:Name="btnSignup"
+                    Text="Signup" 
+                    TextColor="#AA4343"
+                    BorderWidth="4"
+                    BorderColor="#AA4343"
+                    BackgroundColor="white"
+                    SemanticProperties.Hint="Login button"
+                    FontSize="24"
+                    CornerRadius="16"
+                    Clicked="SignupClicked"
+                    HorizontalOptions="Fill" />
+                
+            </StackLayout>
+        </Frame>
+    </Grid>
 </ContentPage>

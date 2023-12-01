@@ -8,4 +8,9 @@ public partial class Homepage : ContentPage
 
         welcomeLabel.Text = "Welcome to Heartsync " + username + "!";
     }
+
+   /* private void HomeToolbarItem_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new MainPage());
+    }*/
 }

@@ -42,8 +42,32 @@ build_metadata.AdditionalFiles.ManifestResourceName = HeartSync.Resources.Styles
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[D:/repositories/HeartSync/HeartSync/View/ForgotPassword.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HeartSync.View.ForgotPassword.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ForgotPassword.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ForgotPassword.xaml
+
 [D:/repositories/HeartSync/HeartSync/View/Homepage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = HeartSync.View.Homepage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Homepage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Homepage.xaml
+
+[D:/repositories/HeartSync/HeartSync/View/LikesInterests.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HeartSync.View.LikesInterests.xaml
+build_metadata.AdditionalFiles.TargetPath = View\LikesInterests.xaml
+build_metadata.AdditionalFiles.RelativePath = View\LikesInterests.xaml
+
+[D:/repositories/HeartSync/HeartSync/View/MusicTaste.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HeartSync.View.MusicTaste.xaml
+build_metadata.AdditionalFiles.TargetPath = View\MusicTaste.xaml
+build_metadata.AdditionalFiles.RelativePath = View\MusicTaste.xaml
+
+[D:/repositories/HeartSync/HeartSync/View/Signup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HeartSync.View.Signup.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Signup.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Signup.xaml

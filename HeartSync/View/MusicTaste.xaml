@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HeartSync.View.MusicTaste"
+             Title="MusicTaste"
+             Style="{StaticResource AppBackgroundStyle}">
+
+    <VerticalStackLayout HorizontalOptions="Center">
+        <Label 
+            Margin="0,20,0,10"
+            Text="Whats your taste?"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            TextColor="#FFF"
+            FontSize="28"
+        />
+        <Label 
+            Text="Choose your favourite music!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            TextColor="#FFF"
+            FontSize="20"
+        />
+
+        <StackLayout Orientation="Horizontal" Spacing="8">
+            <Button 
+                ImageSource="music.svg"
+                Text="Hiphop"
+                Style="{StaticResource ButtonStyle}" />
+
+            <Button 
+                ImageSource="music.svg"
+                Text="Pop"
+                Style="{StaticResource ButtonStyle}" />
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal">
+            <Button 
+                ImageSource="music.svg"
+                Text="Rock"
+                Style="{StaticResource ButtonStyle}" />
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

@@ -8,7 +8,8 @@
             InitializeComponent();
         }
 
-        private void LoginClicked(object sender, EventArgs e)
+        
+            private void LoginClicked(object sender, EventArgs e)
         {
             string currentUsername = entryUsernameInput.Text;
             string currentPassword = entryPasswordInput.Text;
@@ -23,7 +24,7 @@
 
                 try
                 {
-                    Navigation.PushAsync(new View.Homepage(staticUsername));
+                    Navigation.PushAsync(new View.MusicTaste());
                 }
                 catch (Exception ex)
                 {
@@ -35,6 +36,28 @@
                 DisplayAlert("Error", "Username or Password is incorrect", "OK");
             }
 
+        }
+        private void SignupClicked(object sender, EventArgs e)
+        {
+            try
+            {
+                Navigation.PushAsync(new View.Signup());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Navigation Exception: " + ex.Message);
+            }
+        }
+        private void ResetClicked(object sender, EventArgs e)
+        {
+            try
+            {
+                Navigation.PushAsync(new View.ForgotPassword());
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Navigation Exception: " + ex.Message);
+            }
         }
     }
 
