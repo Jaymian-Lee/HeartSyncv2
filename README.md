@@ -58,6 +58,9 @@ HeartSync is more than just a dating app—it's a symphony of connections orches
 
 We welcome contributions to make HeartSync even better. Feel free to submit issues, feature requests, or pull requests.
 
+## Design
+https://www.figma.com/file/wgF8prZ4caZOVC6NGJRsWr/HeartSync---Design?type=design&node-id=3-710&mode=design
+
 ## SRS
 
 - ## Requirements
