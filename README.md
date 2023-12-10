@@ -403,3 +403,61 @@ We welcome contributions to make HeartSync even better. Feel free to submit issu
 | - **Wrong Scenario: Systeem kan de verzonden foto niet toevoegen aan de chatgeschiedenis vanwege technische problemen.** |
 |   1. Systeem toont een foutmelding. |
 |   2. Gebruiker wordt geadviseerd het opnieuw te proberen. |
+
+##Lijst met data
+Op basis van de informatie die je hebt verstrekt, kun je de volgende lijst met benodigde data opstellen:
+
+1. **Voor Registratie:**
+   - Gebruikersnaam
+   - E-mailadres
+   - Wachtwoord
+
+2. **Voor Inloggen:**
+   - Gebruikersnaam of E-mailadres
+   - Wachtwoord
+
+3. **Voor Muziekinteresses:**
+   - Geselecteerde muziekinteresses (via buttons)
+   - Algemene muziekvoorkeuren
+   - Quizresultaten
+
+4. **Voor Profielinformatie:**
+   - Naam
+   - Leeftijd
+   - Locatie
+   - Profielfoto
+   - Gedetailleerde profielinformatie
+   - Privacyinstellingen
+
+5. **Voor Chats:**
+   - Berichten
+   - Foto's
+   - Favoriete gesprekken
+   - Quizresultaten van matches
+
+6. **Voor Matches en Zoeken:**
+   - Matches (geaccepteerd/afgewezen)
+   - Zoekcriteria (leeftijd, locatie, interesses)
+   - Gemeenschappelijke muziekinteresses met matches
+   - Feedback over de app
+
+7. **Voor App-instellingen:**
+   - Taalvoorkeur
+   - Notificatievoorkeuren (specifieke activiteiten)
+   - Donkere modusvoorkeur
+   - Biometrische gegevens (voor inloggen)
+
+8. **Voor Dynamische Integratie van Features:**
+   - Mogelijkheid om nieuwe features dynamisch te integreren
+
+9. **Voor Accountbeheer:**
+   - Opties voor accountverwijdering
+   - Deactiveringsmogelijkheden
+
+10. **Voor Geavanceerde Functionaliteiten:**
+    - Synchronisatie over verschillende apparaten
+    - Real-time meldingen
+    - Archiveren van gesprekken
+    - Profiel delen via externe platforms
+
+
