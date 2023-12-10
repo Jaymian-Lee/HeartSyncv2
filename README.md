@@ -60,6 +60,49 @@ We welcome contributions to make HeartSync even better. Feel free to submit issu
 
 ## SRS
 
+- ## Requirements
+1.	De Gebruiker moet zich kunnen registreren voor de app.
+2.	De Gebruiker moet kunnen inloggen met hun geregistreerde gegevens.
+3.	De Gebruiker moet muziekinteresses kunnen opgeven bij de eerste aanmelding.
+4.	De Gebruiker moet specifieke muziekinteresses kunnen selecteren door middel van buttons.
+5.	De Gebruiker moet na het invullen van muziekinteresses naar het hoofdscherm worden geleid.
+6.	De Gebruiker moet toegang hebben tot de navigatiebalk met opties voor 'Settings', 'Chats', en 'Profile'.
+7.	De Gebruiker moet algemene app-instellingen kunnen aanpassen in het 'Settings'-gedeelte.
+8.	De Gebruiker moet een overzicht kunnen zien van hun huidige gesprekken en actieve matches in het 'Chats'-gedeelte.
+9.	De Gebruiker moet toegang hebben tot hun eigen profielinformatie in het 'Profile'-gedeelte.
+10.	De Gebruiker moet binnen de app met andere gebruikers kunnen chatten.
+11.	De Gebruiker moet een quiz naar hun match kunnen sturen als ijsbreker.
+12.	Na het versturen van de quiz moet de Gebruiker de app kunnen gebruiken als een normale dating app.
+13.	Na het uitwisselen van 100 berichten moet de Gebruiker een foto van zichzelf kunnen insturen.
+14.	De Gebruiker moet matches kunnen vinden door te swipen op kaarten met muziekinteresses.
+15.	De Gebruiker moet gedetailleerde profielen van andere gebruikers kunnen bekijken.
+16.	De Gebruiker moet privacyinstellingen kunnen aanpassen op hun profiel.
+17.	De Gebruiker moet notificaties kunnen ontvangen over nieuwe matches, berichten, en andere activiteiten.
+18.	De Gebruiker moet andere gebruikers kunnen blokkeren of rapporteren in geval van ongepast gedrag.
+19.	De Gebruiker moet matches kunnen vinden op basis van locatie met behulp van de app.
+20.	De Gebruiker moet feedback kunnen geven over de app om deze te verbeteren.
+21.	De Ontwikkelaar moet dynamisch nieuwe features kunnen integreren in de app.
+22.	De Match moet moeiteloos zijn/haar muziekvoorkeuren kunnen bijwerken na de initiële registratie.
+23.	De Gebruiker moet naadloos de quiz van hun Match kunnen ontvangen en direct invullen.
+24.	De Gebruiker moet gedetailleerd notificatiebeheer hebben, inclusief de mogelijkheid om specifieke activiteiten te selecteren voor notificaties.
+25.	De Gebruiker moet de app kunnen synchroniseren over verschillende apparaten met consistentie in gebruikerservaring.
+26.	De Gebruiker moet gesprekken efficiënt kunnen markeren als favorieten voor snelle toegang.
+27.	De Gebruiker moet probleemloos afbeeldingen kunnen delen in de chatinterface.
+28.	De Gebruiker moet een overzichtelijke lijst hebben van gemeenschappelijke muziekinteresses met hun Match.
+29.	De Gebruiker moet de resultaten van de quiz van hun Match direct kunnen inzien.
+30.	De Gebruiker moet de app vloeiend kunnen laten draaien in de achtergrond zonder functioneel verlies.
+31.	De Gebruiker moet flexibel deactiveren van hun account kunnen inzetten.
+32.	De Gebruiker moet naadloos tussen meerdere talen kunnen schakelen binnen de app.
+33.	De Gebruiker moet gericht kunnen zoeken naar andere gebruikers op basis van specifieke muzikale voorkeuren.
+34.	De Gebruiker moet moeiteloos kunnen inloggen met biometrische gegevens voor een geavanceerde beveiligingservaring.
+35.	De Gebruiker moet een gepersonaliseerde lijst kunnen samenstellen van favoriete nummers die prominent zichtbaar zijn op hun profiel.
+36.	De Gebruiker moet gesprekken efficiënt kunnen archiveren voor een georganiseerde chatomgeving.
+37.	De Gebruiker moet profielen van andere gebruikers naadloos kunnen delen via externe platforms.
+38.	De Gebruiker moet real-time meldingen ontvangen bij het ontvangen van nieuwe quizresultaten.
+39.	De Gebruiker moet de app naadloos kunnen ervaren in een visueel vriendelijke donkere modus.
+40.	De Gebruiker moet proactieve, gepersonaliseerde suggesties ontvangen voor nieuwe matches op basis van hun unieke muziekvoorkeuren.
+
+ 
 - ## Use Case Diagram
     
 
