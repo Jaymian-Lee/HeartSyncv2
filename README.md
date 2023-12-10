@@ -104,7 +104,8 @@ We welcome contributions to make HeartSync even better. Feel free to submit issu
 
  
 - ## Use Case Diagram
-    
+    ![UseCase - HeartSync](https://github.com/Jaymian-Lee/HeartSync/assets/56151997/27b08c16-cb6d-4cd9-95da-5f4d467ce584)
+
 
 - ## Use Case Description
 ### Use Case 1: UC1 Account beheren
