@@ -3,6 +3,7 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "HeartSync.dll" comes first in this list. */
 		"HeartSync.dll",
+		"Bogus.dll",
 		"GoogleGson.dll",
 		"Microsoft.Extensions.Configuration.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",
@@ -19,6 +20,12 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Maui.dll",
 		"Microsoft.Maui.Essentials.dll",
 		"Microsoft.Maui.Graphics.dll",
+		"SQLite-net.dll",
+		"SQLitePCLRaw.batteries_v2.dll",
+		"SQLitePCLRaw.core.dll",
+		"SQLitePCLRaw.lib.e_sqlite3.android.dll",
+		"SQLitePCLRaw.provider.dynamic_cdecl.dll",
+		"SQLitePCLRaw.provider.e_sqlite3.dll",
 		"Xamarin.Android.Glide.dll",
 		"Xamarin.Android.Glide.Annotations.dll",
 		"Xamarin.Android.Glide.DiskLruCache.dll",
