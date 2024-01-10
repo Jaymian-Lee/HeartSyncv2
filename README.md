@@ -106,11 +106,11 @@ https://www.figma.com/file/wgF8prZ4caZOVC6NGJRsWr/HeartSync---Design?type=design
 40.	De Gebruiker moet proactieve, gepersonaliseerde suggesties ontvangen voor nieuwe matches op basis van hun unieke muziekvoorkeuren.
 
  
-- ## Use Case Diagram
+- ## Use Case Diagram V1
     ![UseCase - HeartSync](https://github.com/Jaymian-Lee/HeartSync/assets/56151997/27b08c16-cb6d-4cd9-95da-5f4d467ce584)
 
 
-- ## Use Case Description
+- ## Use Case Description V1
 ### Use Case 1: UC1 Account beheren
 
 | Use Case | UC1: Account beheren |
