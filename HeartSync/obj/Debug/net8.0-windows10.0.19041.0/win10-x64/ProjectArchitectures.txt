@@ -1,1 +1,1 @@
-D:\HeartSync\HeartSync\HeartSync.csproj;x64
+C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\HeartSync.csproj;x64

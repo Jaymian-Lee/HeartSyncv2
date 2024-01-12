@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HeartSync.View.Location"
+             Style="{StaticResource AppBackgroundStyle}"
+             Title="Location">
+    <VerticalStackLayout  Margin="0,20,0,0" HorizontalOptions="Center">
+        <Button BackgroundColor="Transparent" Text="←" FontSize="50" Clicked="OnBackButtonClicked" Margin="-85, -50, 0, 0" MaximumWidthRequest="70" HorizontalOptions="Start"/>
+
+        <Label 
+            Margin="0,-40,0,0"
+            Text="Location?"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            TextColor="#FFF"
+            FontSize="28"
+        />
+        <Label 
+             Text="Let the app find your location"
+             Margin="0,0,0,200"
+             VerticalOptions="Center" 
+             HorizontalOptions="Center" 
+             TextColor="#FFF"
+             FontSize="16"
+         />
+        <Border Stroke="#AA4343" StrokeThickness="2" Margin="0,0,0,20">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="32" />
+            </Border.StrokeShape>
+            <Entry x:Name="countryEntry"  BackgroundColor="#FFF" Placeholder="Enter Country"/>
+        </Border>
+
+        <Border Stroke="#AA4343" StrokeThickness="2" Margin="0,0,0,20">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="32" />
+            </Border.StrokeShape>
+            <Entry BackgroundColor="#FFF" x:Name="cityEntry"  Placeholder="Enter City"/>
+        </Border>
+
+
+        <!-- Button to get current location -->
+        <Button Text="Use Current Location" Clicked="OnUseCurrentLocationClicked"/>
+        <Button
+             Margin="0,240,0,0"
+             x:Name="btnContinue"
+             Style="{StaticResource ButtonContinueStyle}"
+             Text="Continue" 
+             SemanticProperties.Hint="Continue button"
+             Clicked="ContinueClicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>

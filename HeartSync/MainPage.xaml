@@ -12,10 +12,7 @@
 
         <!-- Image above the label without white background -->
         <Image
-            Grid.Row="0"
             Source="banner_heartsync.png"
-            Margin="10,30,10,30"
-            Aspect="AspectFit"
             SemanticProperties.Description="Header image" />
 
         <!-- White background for elements below the label -->

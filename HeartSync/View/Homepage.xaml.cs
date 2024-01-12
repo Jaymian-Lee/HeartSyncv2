@@ -1,3 +1,11 @@
+using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Text.Json;
+using System.Threading.Tasks;
+using Microsoft.Maui.Controls;
+using Newtonsoft.Json.Linq;
+
 namespace HeartSync.View;
 
 public partial class Homepage : ContentPage
@@ -5,12 +13,37 @@ public partial class Homepage : ContentPage
 	public Homepage(string username)
 	{
 		InitializeComponent();
-
-        welcomeLabel.Text = "Welcome to Heartsync " + username + "!";
+        LoadRandomQuote();
     }
 
-   /* private void HomeToolbarItem_Clicked(object sender, EventArgs e)
+    private readonly HttpClient _httpClient = new HttpClient();
+
+    /* private void HomeToolbarItem_Clicked(object sender, EventArgs e)
+     {
+         Navigation.PushAsync(new MainPage());
+     }*/
+    private async void LoadRandomQuote()
     {
-        Navigation.PushAsync(new MainPage());
-    }*/
+        string quote = await GetRandomQuoteAsync();
+        quoteLabel.Text = quote ?? "Fout bij het laden van de quote.";
+    }
+
+    private async Task<string> GetRandomQuoteAsync()
+    {
+        try
+        {
+            var response = await _httpClient.GetStringAsync("https://type.fit/api/quotes");
+            var quotesArray = JArray.Parse(response);
+            var randomIndex = new Random().Next(0, quotesArray.Count);
+            var quoteObject = quotesArray[randomIndex];
+            var quoteText = quoteObject["text"].ToString();
+            var quoteAuthor = quoteObject["author"]?.ToString() ?? "Onbekend";
+            return $"\"{quoteText}\"";
+        }
+        catch (Exception ex)
+        {
+            // Log de fout
+            return null;
+        }
+    }
 }

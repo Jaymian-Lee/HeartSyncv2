@@ -1,11 +1,15 @@
-﻿namespace HeartSync
+﻿using HeartSync.Repositories;
+using HeartSync.Models;
+
+namespace HeartSync
 {
     public partial class App : Application
     {
-        public App()
+        public static BaseRepository<Member>? MemberRepo { get; private set; }
+        public App(BaseRepository<Member> memberRepo)
         {
             InitializeComponent();
-
+            MemberRepo = memberRepo;
             MainPage = new AppShell();
         }
     }

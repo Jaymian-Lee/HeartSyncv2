@@ -2,11 +2,110 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="HeartSync.View.LikesInterests"
+             Style="{StaticResource AppBackgroundStyle}"
              Title="LikesInterests">
-    <VerticalStackLayout>
+    
+    <VerticalStackLayout Margin="0,20,0,0" HorizontalOptions="Center">
+        <Button BackgroundColor="Transparent" Text="←" FontSize="50" Clicked="OnBackButtonClicked" Margin="-15, -50, 0, 0" MaximumWidthRequest="70" HorizontalOptions="Start"/>
+
         <Label 
-            Text="Welcome to .NET MAUI!"
+        Margin="0,-20,0,10"
+        Text="Likes, Interests?"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" 
+        TextColor="#FFF"
+        FontSize="28"
+    />
+        <Label 
+        Text="Choose your hobbies or interests!"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" 
+        TextColor="#FFF"
+        FontSize="18"
+    />
+
+        <StackLayout Margin="0,40,0,0" Orientation="Horizontal" Spacing="8">
+            <Button 
+            ImageSource="music.svg"
+            Text="Hiphop"
+            Style="{StaticResource ButtonStyle}" />
+
+            <Button 
+            ImageSource="music.svg"
+            Text="Pop"
+            Style="{StaticResource ButtonStyle}" />
+        </StackLayout>
+        <StackLayout Style="{StaticResource StackLayoutMusic}" Orientation="Horizontal" Spacing="8">
+            <Button 
+            ImageSource="music.svg"
+            Text="Rock"
+            Style="{StaticResource ButtonStyle}" />
+            <Button 
+             ImageSource="music.svg"
+             Text="Jazz"
+             Style="{StaticResource ButtonStyle}" />
+        </StackLayout>
+        <StackLayout Style="{StaticResource StackLayoutMusic}" Orientation="Horizontal" Spacing="8">
+            <Button 
+             ImageSource="music.svg"
+             Text="Blues"
+             Style="{StaticResource ButtonStyle}" />
+
+            <Button 
+             ImageSource="music.svg"
+             Text="Folk"
+             Style="{StaticResource ButtonStyle}" />
+        </StackLayout>
+
+        <StackLayout Style="{StaticResource StackLayoutMusic}" Orientation="Horizontal" Spacing="8">
+            <Button 
+             ImageSource="music.svg"
+             Text="Metal"
+             Style="{StaticResource ButtonStyle}" />
+            <Button 
+              ImageSource="music.svg"
+              Text="Country"
+              Style="{StaticResource ButtonStyle}" />
+        </StackLayout>
+        <StackLayout Style="{StaticResource StackLayoutMusic}" Orientation="Horizontal" Spacing="8">
+            <Button 
+             ImageSource="music.svg"
+             Text="Classic"
+             Style="{StaticResource ButtonStyle}" />
+
+            <Button 
+             ImageSource="music.svg"
+             Text="Reggae"
+             Style="{StaticResource ButtonStyle}" />
+        </StackLayout>
+
+        <StackLayout Style="{StaticResource StackLayoutMusic}" Orientation="Horizontal" Spacing="8">
+            <Button 
+             ImageSource="music.svg"
+             Text="Punk"
+             Style="{StaticResource ButtonStyle}" />
+            <Button 
+              ImageSource="music.svg"
+              Text="Techno"
+              Style="{StaticResource ButtonStyle}" />
+        </StackLayout>
+        <StackLayout Margin="0,50,0,0">
+            <Label 
+            Text="Load more"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            FontFamily="OpenSansSemibold"
+            FontAttributes="Bold"
+            HorizontalOptions="Center" 
+            TextColor="#FFF"
+            FontSize="16"
+        />
+            <Button
+            Margin="0,4,0,0"
+             x:Name="btnContinue"
+             Style="{StaticResource ButtonContinueStyle}"
+             Text="Continue" 
+             SemanticProperties.Hint="Continue button"
+             Clicked="ContinueClicked"/>
+        </StackLayout>
     </VerticalStackLayout>
 </ContentPage>

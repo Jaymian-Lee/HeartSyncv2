@@ -21,6 +21,9 @@
     <MauiXaml Update="View\LikesInterests.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="View\Location.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="View\MusicTaste.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

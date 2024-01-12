@@ -428,12 +428,24 @@
         <Setter Property="TextColor" Value="#AA4343" />
         <Setter Property="Background" Value="#FFF" />
         <Setter Property="FontSize" Value="18" />
-        <Setter Property="CornerRadius" Value="16" />
+        <Setter Property="CornerRadius" Value="32" />
         <Setter Property="MinimumWidthRequest" Value="200" />
         <Setter Property="MaximumWidthRequest" Value="180" />
+        <Setter Property="MinimumHeightRequest" Value="60" />
+        <Setter Property="MaximumHeightRequest" Value="180" />
         <Setter Property="BorderColor" Value="#b25656" />
         <Setter Property="BorderWidth" Value="4" />
         <Setter Property="Margin" Value="0,8,4,0" />
     </Style>
-
+    <Style x:Key="StackLayoutMusic" TargetType="StackLayout">
+        <Setter Property="Margin" Value="0,10,0,0"/>
+    </Style>
+    <Style x:Key="ButtonContinueStyle" TargetType="Button">
+        <Setter Property="TextColor" Value="#FFF" />
+        <Setter Property="Background" Value="#AA4343" />
+        <Setter Property="FontSize" Value="24" />
+        <Setter Property="CornerRadius" Value="16" />
+        <Setter Property="MinimumWidthRequest" Value="200" />
+        <Setter Property="MaximumWidthRequest" Value="300" />
+    </Style>
 </ResourceDictionary>

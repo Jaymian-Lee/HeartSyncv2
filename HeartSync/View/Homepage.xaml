@@ -5,11 +5,35 @@
              Title="Homepage"
              Style="{StaticResource AppBackgroundStyle}">
     <VerticalStackLayout>
-        <Label x:Name="welcomeLabel"
-       Margin="0,10,0,0"
-       VerticalOptions="Center" 
-       HorizontalOptions="Center"
-       FontSize="20"
-       FontAttributes="Bold"/>
+        <Image
+            Source="heart_home.svg"
+            Margin="10,30,10,30"
+            Aspect="AspectFit"
+            SemanticProperties.Description="Header image" />
+        <StackLayout Margin="0,-100,0,0">
+        <Label 
+            Text="Quote of the day:"
+            TextColor="#FFF"
+            Margin="30,0,0,0"/>
+        <Label 
+            x:Name="quoteLabel"
+            TextColor="#FFF"
+            Text="Quote zal hier verschijnen"
+            VerticalOptions="CenterAndExpand" 
+            HorizontalOptions="CenterAndExpand"
+            FontSize="Medium"/>
+        <Label
+            Text="Lets begin!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            TextColor="#FFF"
+            FontSize="28"/>
+        <Button
+            Margin="0,240,0,0"
+            Style="{StaticResource ButtonContinueStyle}"
+            Text="Start Swiping" 
+            SemanticProperties.Hint="Continue button"/>
+        </StackLayout>
+
     </VerticalStackLayout>
 </ContentPage>
