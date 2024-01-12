@@ -357,3 +357,6 @@ C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0
 C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\loading@3x.gif
 C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\loading@2x.gif
 C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\loading.gif
+C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\heart_home@3x.png
+C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\heart_home@2x.png
+C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\resizetizer\r\heart_home.png
