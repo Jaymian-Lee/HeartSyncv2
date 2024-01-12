@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x40ZHrSkoyzRWOkOb7REsu1mlKip6FOZTKln6Bw4oDdtKY6321+/QqrDHM49Q3926nmXj4QqWZh/4ttFfco3GA==",
+  "dgSpecHash": "mxPekEBMFdf/4OpmFTXz9BjhlD3Y6fql3Hel/Xfjnx7a/A9IbAhu/UK+0q3yT0SKCyUz9ujHenbwjGvUySiUVQ==",
   "success": true,
-  "projectFilePath": "D:\\repositories\\HeartSync\\HeartSync\\HeartSync.csproj",
+  "projectFilePath": "D:\\repositories\\HeartSyncv2\\HeartSync\\HeartSync.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jayre\\.nuget\\packages\\bogus\\35.0.1\\bogus.35.0.1.nupkg.sha512",
     "C:\\Users\\jayre\\.nuget\\packages\\fody\\6.6.4\\fody.6.6.4.nupkg.sha512",

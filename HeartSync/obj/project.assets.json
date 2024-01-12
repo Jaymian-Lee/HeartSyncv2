@@ -60949,11 +60949,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repositories\\HeartSync\\HeartSync\\HeartSync.csproj",
+      "projectUniqueName": "D:\\repositories\\HeartSyncv2\\HeartSync\\HeartSync.csproj",
       "projectName": "HeartSync",
-      "projectPath": "D:\\repositories\\HeartSync\\HeartSync\\HeartSync.csproj",
+      "projectPath": "D:\\repositories\\HeartSyncv2\\HeartSync\\HeartSync.csproj",
       "packagesPath": "C:\\Users\\jayre\\.nuget\\packages\\",
-      "outputPath": "D:\\repositories\\HeartSync\\HeartSync\\obj\\",
+      "outputPath": "D:\\repositories\\HeartSyncv2\\HeartSync\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
