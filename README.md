@@ -407,6 +407,10 @@ https://www.figma.com/file/wgF8prZ4caZOVC6NGJRsWr/HeartSync---Design?type=design
 |   1. Systeem toont een foutmelding. |
 |   2. Gebruiker wordt geadviseerd het opnieuw te proberen. |
 
+##Sequence Diagram
+![diagram-export-1-14-2024-9_51_00-PM](https://github.com/Jaymian-Lee/HeartSyncv2/assets/56151997/1091f4d4-5061-415f-af98-25226b638666)
+
+
 ##Lijst met data
 Op basis van de informatie die je hebt verstrekt, kun je de volgende lijst met benodigde data opstellen:
 
