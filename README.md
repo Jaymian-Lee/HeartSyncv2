@@ -409,6 +409,213 @@ https://www.figma.com/file/wgF8prZ4caZOVC6NGJRsWr/HeartSync---Design?type=design
 |   1. Systeem toont een foutmelding. |
 |   2. Gebruiker wordt geadviseerd het opnieuw te proberen. |
 
+- ## Use Case Description V2
+### Use Case 1: UC1 Account beheren
+
+| Use Case | UC1: Account beheren |
+|:----------------|:--------------------------|
+| **Description** | Beheer van accountinstellingen, waaronder het wijzigen van persoonlijke informatie en voorkeuren. |
+| **Actor** | Gebruiker |
+| **Trigger(s)** | Gebruiker wil wijzigingen aanbrengen in hun accountinstellingen. |
+| **Pre-Conditions** | Gebruiker is ingelogd op hun account. |
+| **Post-Conditions** | Accountinformatie is bijgewerkt volgens de wijzigingen van de gebruiker. |
+| **Steps** |
+| Actor (User) | System |
+| 1. Gebruiker navigeert naar de accountinstellingenpagina. | |
+|  | 2. Toont de accountinstellingenpagina. |
+| 3. Gebruiker wijzigt de gewenste informatie (bijv. naam, profielfoto, wachtwoord). | |
+|  | 4. Slaat de wijzigingen op en update de accountinformatie. |
+| **Main Success Scenario** | 
+| 1. Gebruiker navigeert naar de accountinstellingenpagina. |
+| 2. Toont de accountinstellingenpagina. |
+| 3. Gebruiker wijzigt de gewenste informatie. |
+| 4. Slaat de wijzigingen op en update de accountinformatie. |
+| 5. **Gebruiker heeft succesvol hun accountinstellingen bijgewerkt.** |
+| **Alternative Scenarios** | 
+| - **Wrong Scenario: Gebruiker annuleert de wijzigingen.** |
+|   1. Gebruiker klikt op "Annuleren". |
+|   2. Systeem annuleert de wijzigingen en behoudt de vorige accountinformatie. |
+| - **Wrong Scenario: Systeem kan de wijzigingen niet opslaan vanwege technische problemen.** |
+|   1. Systeem toont een foutmelding. |
+|   2. Gebruiker wordt geadviseerd het opnieuw te proberen. |
+
+
+
+### Use Case 2: UC2 Match informatie aangeven
+
+| Use Case | UC2: Match informatie aangeven |
+|:----------------|:--------------------------|
+| **Description** | Gebruiker geeft aan welke informatie ze zoeken in een match. |
+| **Actor** | Gebruiker |
+| **Trigger(s)** | Gebruiker wil hun voorkeuren aangeven voor matches. |
+| **Pre-Conditions** | Gebruiker is ingelogd op hun account. |
+| **Post-Conditions** | Voorkeuren van de gebruiker zijn bijgewerkt. |
+| **Steps** |
+| Actor (User) | System |
+| 1. Gebruiker opent de matchinstellingenpagina. | |
+|  | 2. Toont de matchinstellingenpagina. |
+| 3. Gebruiker geeft hun voorkeuren aan (bijv. leeftijd, locatie, interesses). | |
+|  | 4. Slaat de voorkeuren op en update de matchinstellingen. |
+| **Main Success Scenario** | 
+| 1. Gebruiker opent de matchinstellingenpagina. |
+| 2. Toont de matchinstellingenpagina. |
+| 3. Gebruiker geeft hun voorkeuren aan. |
+| 4. **Slaat de voorkeuren op en update de matchinstellingen.** |
+| 5. Voorkeuren van de gebruiker zijn bijgewerkt. |
+| **Alternative Scenarios** | 
+| - **Wrong Scenario: Gebruiker annuleert de voorkeuren.** |
+|   1. Gebruiker klikt op "Annuleren". |
+|   2. Systeem annuleert de wijzigingen en behoudt de vorige matchinstellingen. |
+| - **Wrong Scenario: Systeem kan de voorkeuren niet opslaan vanwege technische problemen.** |
+|   1. Systeem toont een foutmelding. |
+|   2. Gebruiker wordt geadviseerd het opnieuw te proberen. |
+
+### Use Case 3: UC3 Muzieksmaak aangeven
+
+| Use Case | UC3: Muzieksmaak aangeven |
+|:----------------|:--------------------------|
+| **Description** | Gebruiker geeft hun muzieksmaak aan op hun profiel. |
+| **Actor** | Gebruiker |
+| **Trigger(s)** | Gebruiker wil hun muzieksmaak delen met anderen. |
+| **Pre-Conditions** | Gebruiker is ingelogd op hun account. |
+| **Post-Conditions** | Muzieksmaak van de gebruiker is toegevoegd aan hun profiel. |
+| **Steps** |
+| Actor (User) | System |
+| 1. Gebruiker opent de profielbewerkingspagina. | |
+|  | 2. Toont de profielbewerkingspagina. |
+| 3. Gebruiker voegt muzieksmaak toe aan hun profiel. | |
+|  | 4. Slaat de wijzigingen op en update het profiel. |
+| **Main Success Scenario** | 
+| 1. Gebruiker opent de profielbewerkingspagina. |
+| 2. Toont de profielbewerkingspagina. |
+| 3. **Gebruiker voegt muzieksmaak toe aan hun profiel.** |
+| 4. Slaat de wijzigingen op en update het profiel. |
+| 5. Muzieksmaak van de gebruiker is toegevoegd aan hun profiel. |
+| **Alternative Scenarios** | 
+| - **Wrong Scenario: Gebruiker annuleert de toevoeging van muzieksmaak.** |
+|   1. Gebruiker klikt op "Annuleren". |
+|   2. Systeem annuleert de wijzigingen en behoudt het vorige profiel. |
+| - **Wrong Scenario: Systeem kan de toevoeging van muzieksmaak niet opslaan vanwege technische problemen.** |
+|   1. Systeem toont een foutmelding. |
+|   2. Gebruiker wordt geadviseerd het opnieuw te proberen. |
+
+### Use Case 4: UC4 Interesses aangeven
+
+| Use Case | UC4: Interesses aangeven |
+|:----------------|:--------------------------|
+| **Description** | Gebruiker geeft hun interesses aan op hun profiel. |
+| **Actor** | Gebruiker |
+| **Trigger(s)** | Gebruiker wil hun interesses delen op hun profiel. |
+| **Pre-Conditions** | Gebruiker is ingelogd op hun account. |
+| **Post-Conditions** | Interesses van de gebruiker zijn toegevoegd aan hun profiel. |
+| **Steps** |
+| Actor (User) | System |
+| 1. Gebruiker opent de profielbewerkingspagina. | |
+|  | 2. Toont de profielbewerkingspagina. |
+| 3. Gebruiker voegt hun interesses toe aan het daarvoor bestemde gedeelte. | |
+|  | 4. Slaat de wijzigingen op en update het profiel. |
+| **Main Success Scenario** | 
+| 1. Gebruiker opent de profielbewerkingspagina. |
+| 2. Toont de profielbewerkingspagina. |
+| 3. **Gebruiker voegt hun interesses toe aan het daarvoor bestemde gedeelte.** |
+| 4. Slaat de wijzigingen op en update het profiel. |
+| 5. Interesses van de gebruiker zijn toegevoegd aan hun profiel. |
+| **Alternative Scenarios** | 
+| - **Wrong Scenario: Gebruiker annuleert het toevoegen van interesses.** |
+|   1. Gebruiker klikt op "Annuleren". |
+|   2. Systeem annuleert de wijzigingen en behoudt het vorige profiel. |
+| - **Wrong Scenario: Systeem kan de toegevoegde interesses niet opslaan vanwege technische problemen.** |
+|   1. Systeem toont een foutmelding. |
+|   2. Gebruiker wordt geadviseerd het opnieuw te proberen. |
+
+### Use Case 5: UC5 Matches swipen
+
+| Use Case | UC5: Matches swipen |
+|:----------------|:--------------------------|
+| **Description** | Gebruiker bekijkt en beoordeelt potentiële matches door te swipen. |
+| **Actor** | Gebruiker |
+| **Trigger(s)** | Gebruiker wil nieuwe matches ontdekken en beoordelen. |
+| **Pre-Conditions** | Gebruiker is ingelogd op hun account en heeft matches beschikbaar. |
+| **Post-Conditions** | De beoordeling van de gebruiker wordt vastgelegd voor elke geswipe-de match. |
+| **Steps** |
+| Actor (User) | System |
+| 1. Gebruiker opent de matchoverzichtspagina. | |
+|  | 2. Toont de beschikbare matches. |
+| 3. Gebruiker swipet naar links (afwijzen) of rechts (accepteren) voor elke match. | |
+|  | 4. Systeem registreert de gebruikersbeoordeling voor elke match. |
+| **Main Success Scenario** | 
+| 1. Gebruiker opent de matchoverzichtspagina. |
+| 2. Toont de beschikbare matches. |
+| 3. **Gebruiker swipet naar links of rechts voor elke match.** |
+| 4. Systeem registreert de gebruikersbeoordeling voor elke match. |
+| 5. Gebruiker heeft succesvol matches beoordeeld. |
+| **Alternative Scenarios** | 
+| - **Wrong Scenario: Gebruiker annuleert het swipen.** |
+|   1. Gebruiker stopt met swipen en sluit de app. |
+|   2. Gebruikersbeoordeling wordt niet vastgelegd voor niet-geswipede matches. |
+| - **Wrong Scenario: Systeem kan de gebruikersbeoordeling niet vastleggen vanwege technische problemen.** |
+|   1. Systeem toont een foutmelding. |
+|   2. Gebruiker wordt geadviseerd het opnieuw te proberen.
+
+### Use Case 6: UC6 Berichten sturen
+
+| Use Case | UC6: Berichten sturen |
+|:----------------|:--------------------------|
+| **Description** | Gebruiker stuurt berichten naar matches met wie ze gematcht zijn. |
+| **Actor** | Gebruiker |
+| **Trigger(s)** | Gebruiker wil communiceren met hun matches. |
+| **Pre-Conditions** | Gebruiker is ingelogd op hun account en heeft gematchte gebruikers. |
+| **Post-Conditions** | Het verzonden bericht wordt vastgelegd in de berichtengeschiedenis. |
+| **Steps** |
+| Actor (User) | System |
+| 1. Gebruiker opent het berichtenscherm met een gematchte gebruiker. | |
+|  | 2. Toont het berichtenscherm met de chatgeschiedenis. |
+| 3. Gebruiker typt en verzendt een bericht naar hun match. | |
+|  | 4. Systeem registreert het verzonden bericht in de chatgeschiedenis. |
+| **Main Success Scenario** | 
+| 1. Gebruiker opent het berichtenscherm met een gematchte gebruiker. |
+| 2. Toont het berichtenscherm met de chatgeschiedenis. |
+| 3. **Gebruiker typt en verzendt een bericht naar hun match.** |
+| 4. Systeem registreert het verzonden bericht in de chatgeschiedenis. |
+| 5. Gebruiker heeft succesvol een bericht verzonden naar hun match. |
+| **Alternative Scenarios** | 
+| - **Wrong Scenario: Gebruiker annuleert het verzenden van het bericht.** |
+|   1. Gebruiker sluit het berichtenscherm zonder een bericht te verzenden. |
+|   2. Het bericht wordt niet vastgelegd in de chatgeschiedenis. |
+| - **Wrong Scenario: Systeem kan het verzonden bericht niet registreren vanwege technische problemen.** |
+|   1. Systeem toont een foutmelding. |
+|   2. Gebruiker wordt geadviseerd het opnieuw te proberen.
+
+### Use Case 7: UC7 Foto insturen
+
+| Use Case | UC7: Foto insturen |
+|:----------------|:--------------------------|
+| **Description** | Gebruiker stuurt een foto naar hun match. |
+| **Actor** | Gebruiker |
+| **Trigger(s)** | Gebruiker wil een foto delen met hun match. |
+| **Pre-Conditions** | Gebruiker is ingelogd op hun account en heeft een actieve chat met de match. |
+| **Post-Conditions** | De verzonden foto wordt toegevoegd aan de chatgeschiedenis. |
+| **Steps** |
+| Actor (User) | System |
+| 1. Gebruiker opent het berichtenscherm met een match. | |
+|  | 2. Toont het berichtenscherm met de chatgeschiedenis. |
+| 3. Gebruiker selecteert en verzendt een foto naar hun match. | |
+|  | 4. Systeem voegt de verzonden foto toe aan de chatgeschiedenis. |
+| **Main Success Scenario** | 
+| 1. Gebruiker opent het berichtenscherm met een match. |
+| 2. Toont het berichtenscherm met de chatgeschiedenis. |
+| 3. **Gebruiker selecteert en verzendt een foto naar hun match.** |
+| 4. Systeem voegt de verzonden foto toe aan de chatgeschiedenis. |
+| 5. Gebruiker heeft succesvol een foto verzonden naar hun match. |
+| **Alternative Scenarios** | 
+| - **Wrong Scenario: Gebruiker annuleert het verzenden van de foto.** |
+|   1. Gebruiker sluit het fotoselectiescherm zonder een foto te verzenden. |
+|   2. De foto wordt niet toegevoegd aan de chatgeschiedenis. |
+| - **Wrong Scenario: Systeem kan de verzonden foto niet toevoegen aan de chatgeschiedenis vanwege technische problemen.** |
+|   1. Systeem toont een foutmelding. |
+|   2. Gebruiker wordt geadviseerd het opnieuw te proberen. |
+
+
 ## Sequence Diagram
 ![diagram-export-1-14-2024-9_51_00-PM](https://github.com/Jaymian-Lee/HeartSyncv2/assets/56151997/1091f4d4-5061-415f-af98-25226b638666)
 
@@ -417,10 +624,6 @@ https://www.figma.com/file/wgF8prZ4caZOVC6NGJRsWr/HeartSync---Design?type=design
 
 ## State Diagram
 ![State diagram - HeartSync drawio](https://github.com/Jaymian-Lee/HeartSyncv2/assets/56151997/12a04bdb-9b34-4fb3-b7c6-248bd4883ad6)
-
-## 
-
-
 
 ## ERD
 
