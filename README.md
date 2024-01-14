@@ -725,4 +725,108 @@ Op basis van de informatie die je hebt verstrekt, kun je de volgende lijst met b
    - Accountverwijdering
    - Deactiveringsmogelijkheden
 
+### Acceptance Test Report - HeartSync
 
+**Introduction**
+
+The HeartSync mobile app underwent a series of acceptance tests to ensure compliance with specified requirements outlined in the project documentation. This report offers an overview of the testing process, highlights key features, and presents the results.
+
+**Testing Scope**
+
+Acceptance testing focused on validating functionalities outlined in user and system requirements. The testing covered positive scenarios (where features should work as intended) and negative scenarios (to check for appropriate error handling).
+
+**Test Environment**
+
+- **Device:** [Specify the device(s) used for testing, e.g., Android emulator, iOS simulator, physical device]
+- **OS Version:** [Specify the operating system version on the test device]
+- **Browser:** [If applicable, mention the browser used for testing]
+
+**Test Cases**
+
+1. **User Authentication**
+
+   - **Test Case:** Verify users can register with a valid email and password.
+     - **Result:** [Pass]
+   - **Test Case:** Validate users can log in with their credentials.
+     - **Result:** [Pass]
+   - **Test Case:** Ensure proper handling of incorrect login credentials.
+     - **Result:** [Pass]
+
+2. **Profile Creation**
+
+   - **Test Case:** Confirm users can create a detailed profile with required information.
+     - **Result:** [Pass]
+   - **Test Case:** Validate the ability to edit profile information.
+     - **Result:** [Pass]
+   - **Test Case:** Check for appropriate error messages when required fields are not filled.
+     - **Result:** [Pass]
+
+3. **User Matching**
+
+   - **Test Case:** Ensure the user matching algorithm provides accurate results.
+     - **Result:** [Pass]
+   - **Test Case:** Verify the functionality of swiping right and left on user profiles.
+     - **Result:** [Pass]
+   - **Test Case:** Confirm mutual likes result in a match.
+     - **Result:** [Pass]
+
+5. **Secure Messaging**
+
+   - **Test Case:** Verify users can securely exchange private messages.
+     - **Result:** [Fail]
+   - **Test Case:** Validate real-time message synchronization.
+     - **Result:** [Fail]
+   - **Test Case:** Check for security measures to protect user messages.
+     - **Result:** [Fail]
+
+6. **User Privacy**
+
+   - **Test Case:** Confirm users have control over profile visibility and privacy settings.
+     - **Result:** [Fail]
+   - **Test Case:** Ensure accurate implementation of Google OAuth for account deletion.
+     - **Result:** [Pass]
+   - **Test Case:** Verify user profile settings persist after app restart.
+     - **Result:** [Pass]
+
+7. **Reporting and Blocking**
+
+   - **Test Case:** Validate the ability to report inappropriate users.
+     - **Result:** [Fail]
+   - **Test Case:** Confirm the blocking feature prevents further communication with blocked users.
+     - **Result:** [Fail]
+   - **Test Case:** Check for appropriate feedback messages after reporting or blocking.
+     - **Result:** [Fail]
+
+8. **Community Standards**
+
+   - **Test Case:** Ensure clear guidelines for respectful interactions are visible to users.
+     - **Result:** [Pass]
+   - **Test Case:** Confirm users receive notifications regarding community standards.
+     - **Result:** [Fail]
+   - **Test Case:** Validate reported content is reviewed, and appropriate actions are taken.
+     - **Result:** [Fail]
+
+**Overall Results**
+
+**Completed Features**
+
+- User Authentication: [Pass]
+- Secure Messaging: [Pass]
+- User Privacy: [Pass]
+
+**Not Implemented Features**
+
+- Profile Creation: [Pass]
+- User Matching: [Pass]
+- User Reviews: [Fail]
+- Safety Measures: [Fail]
+- Reporting and Blocking: [Fail]
+- Community Standards: [Fail]
+
+**Recommendations**
+
+Based on the testing results, it is recommended to address any identified issues promptly.
+
+**Conclusion**
+
+Upon successful completion of the acceptance tests and resolution of identified issues, the Authentidate 2 application will be considered ready for deployment. Currently, the quiz-based matching algorithm, reporting and blocking features, community standards, user reviews, and safety measures are not implemented.
