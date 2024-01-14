@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HeartSync")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+85b4f0540df25c02595bc44290b1e644c3310227")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("HeartSync")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HeartSync")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

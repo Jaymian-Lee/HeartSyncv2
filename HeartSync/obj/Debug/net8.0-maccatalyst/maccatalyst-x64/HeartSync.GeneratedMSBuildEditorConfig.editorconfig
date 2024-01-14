@@ -82,3 +82,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = HeartSync.View.Signup.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Signup.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Signup.xaml
+
+[C:/Users/jayre/OneDrive/Documenten/GitHub/HeartSyncv2/HeartSync/View/SwipePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = HeartSync.View.SwipePage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\SwipePage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\SwipePage.xaml

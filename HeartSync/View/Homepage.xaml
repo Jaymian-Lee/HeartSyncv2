@@ -28,12 +28,50 @@
             HorizontalOptions="Center" 
             TextColor="#FFF"
             FontSize="28"/>
-        <Button
-            Margin="0,240,0,0"
+            <Button
+            Margin="0,60,0,0"
             Style="{StaticResource ButtonContinueStyle}"
             Text="Start Swiping" 
-            SemanticProperties.Hint="Continue button"/>
+            Clicked="StartSwiping"
+            SemanticProperties.Hint="Continue button"/> 
+            
         </StackLayout>
+
+
+        <!-- Matches -->
+        <ContentPage Title="Matches">
+            <ContentPage.Content>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                </Grid>
+            </ContentPage.Content>
+        </ContentPage>
+
+        <!--Settings-->
+        <ContentPage Title="Settings">
+            <ContentPage.Content>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                </Grid>
+            </ContentPage.Content>
+        </ContentPage>
+        <!--Profile-->
+        <ContentPage Title="Profile">
+            <ContentPage.Content>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                </Grid>
+            </ContentPage.Content>
+        </ContentPage>
 
     </VerticalStackLayout>
 </ContentPage>

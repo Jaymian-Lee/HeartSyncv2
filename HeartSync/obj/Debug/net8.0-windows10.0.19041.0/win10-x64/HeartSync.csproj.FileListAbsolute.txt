@@ -378,3 +378,8 @@ C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0
 C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-150.gif
 C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-125.gif
 C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-100.gif
+C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\heart_home.scale-400.png
+C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\heart_home.scale-200.png
+C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\heart_home.scale-150.png
+C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\heart_home.scale-125.png
+C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\heart_home.scale-100.png

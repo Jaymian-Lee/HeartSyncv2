@@ -70,9 +70,6 @@
     <AppxPackagedFile Include="C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\background.scale-100.png">
       <PackagePath>background.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\banner_heartsync.scale-100.png">
-      <PackagePath>banner_heartsync.scale-100.png</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\music.scale-400.png">
       <PackagePath>music.scale-400.png</PackagePath>
     </AppxPackagedFile>
@@ -226,6 +223,9 @@
     <AppxPackagedFile Include="C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\banner_heartsync.scale-100.png">
+      <PackagePath>banner_heartsync.scale-100.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\loading.scale-400.gif">
       <PackagePath>loading.scale-400.gif</PackagePath>
     </AppxPackagedFile>
@@ -255,6 +255,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\heart_home.scale-400.png">
+      <PackagePath>heart_home.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\heart_home.scale-200.png">
+      <PackagePath>heart_home.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\heart_home.scale-150.png">
+      <PackagePath>heart_home.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\heart_home.scale-125.png">
+      <PackagePath>heart_home.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\heart_home.scale-100.png">
+      <PackagePath>heart_home.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jayre\OneDrive\Documenten\GitHub\HeartSyncv2\HeartSync\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\HeartSync.deps.json">
       <PackagePath>HeartSync.deps.json</PackagePath>

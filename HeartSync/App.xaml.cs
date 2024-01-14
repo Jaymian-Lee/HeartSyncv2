@@ -5,11 +5,12 @@ namespace HeartSync
 {
     public partial class App : Application
     {
-        public static BaseRepository<Member>? MemberRepo { get; private set; }
-        public App(BaseRepository<Member> memberRepo)
+       // public static BaseRepository<Member>? MemberRepo { get; private set; }
+        //public App(BaseRepository<Member> memberRepo)
+        public App()
         {
             InitializeComponent();
-            MemberRepo = memberRepo;
+           // MemberRepo = memberRepo;
             MainPage = new AppShell();
         }
     }

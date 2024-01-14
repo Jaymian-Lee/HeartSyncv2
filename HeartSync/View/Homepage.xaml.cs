@@ -22,11 +22,23 @@ public partial class Homepage : ContentPage
      {
          Navigation.PushAsync(new MainPage());
      }*/
+    private void StartSwiping(object sender, EventArgs e)
+    {
+        try
+        {
+            Navigation.PushAsync(new SwipePage());
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Navigation Exception: " + ex.Message);
+        }
+    }
     private async void LoadRandomQuote()
     {
         string quote = await GetRandomQuoteAsync();
         quoteLabel.Text = quote ?? "Fout bij het laden van de quote.";
     }
+
 
     private async Task<string> GetRandomQuoteAsync()
     {
@@ -46,4 +58,5 @@ public partial class Homepage : ContentPage
             return null;
         }
     }
+    
 }

@@ -11,14 +11,14 @@ namespace HeartSync.ViewModels
 {
     public class MemberViewModel
     {
-        public List<Member>? Members { get; set; }
+        // public List<Member>? Members { get; set; }
         public MemberViewModel()
         {
             
         }
         private void Refresh()
         {
-            Members = App.MemberRepo.GetEntities();
+           // Members = App.MemberRepo.GetEntities();
         }
     }
 }
