@@ -413,10 +413,63 @@ https://www.figma.com/file/wgF8prZ4caZOVC6NGJRsWr/HeartSync---Design?type=design
 ## Activity Diagram
 ![Activity diagram - HeartSync](https://github.com/Jaymian-Lee/HeartSyncv2/assets/56151997/0a0be9d1-384e-452a-b7ff-f17e2b1f6b82)
 
+## State Diagram
+![State diagram - HeartSync drawio](https://github.com/Jaymian-Lee/HeartSyncv2/assets/56151997/12a04bdb-9b34-4fb3-b7c6-248bd4883ad6)
 
+## 
 
 ## Lijst met data
 Op basis van de informatie die je hebt verstrekt, kun je de volgende lijst met benodigde data opstellen:
+
+## ERD
+
+``    User:
+        Username (Primary Key, Unique)
+        Email (Unique)
+        Password
+
+    Profile:
+        Name
+        Age
+        Location
+        Profile Photo
+        Profile Information
+        Privacy Settings
+        *User_ID (Foreign Key referencing User)
+
+    Music Interests:
+        Selected Music Interests (List)
+        General Music Preferences
+        Quiz Results
+        *User_ID (Foreign Key referencing User)
+
+    Chats:
+        Messages
+        Photos
+        Favorite Conversations
+        *User_ID (Foreign Key referencing User)
+        *Match_ID (Foreign Key referencing Matches)
+
+    Matches:
+        Matched User_IDs (List)
+        Search Criteria
+        Music Interests
+        *User_ID (Foreign Key referencing User)
+
+    App Settings:
+        Language Preference
+        Notification Preferences
+        Dark Mode Preference
+        Biometric Data
+        *User_ID (Foreign Key referencing User)
+
+    Account Management:
+        Account Deletion Options
+        Deactivation Options
+        *User_ID (Foreign Key referencing User)``
+![diagram-export-1-14-2024-10_14_30-PM](https://github.com/Jaymian-Lee/HeartSyncv2/assets/56151997/7fda3ef9-7f41-4098-bf47-5b8bd37a7cd1)
+
+    
 
 1. **Registratie:**
    - Gebruikersnaam
