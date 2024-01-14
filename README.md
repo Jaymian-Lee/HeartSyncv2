@@ -410,6 +410,10 @@ https://www.figma.com/file/wgF8prZ4caZOVC6NGJRsWr/HeartSync---Design?type=design
 ## Sequence Diagram
 ![diagram-export-1-14-2024-9_51_00-PM](https://github.com/Jaymian-Lee/HeartSyncv2/assets/56151997/1091f4d4-5061-415f-af98-25226b638666)
 
+## Activity Diagram
+![Activity diagram - HeartSync](https://github.com/Jaymian-Lee/HeartSyncv2/assets/56151997/0a0be9d1-384e-452a-b7ff-f17e2b1f6b82)
+
+
 
 ## Lijst met data
 Op basis van de informatie die je hebt verstrekt, kun je de volgende lijst met benodigde data opstellen:
