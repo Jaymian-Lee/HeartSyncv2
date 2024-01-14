@@ -811,15 +811,15 @@ Acceptance testing focused on validating functionalities outlined in user and sy
 **Completed Features**
 
 - User Authentication: [Pass]
-- Secure Messaging: [Pass]
+- Safety Measures: [Fail]
 - User Privacy: [Pass]
 
 **Not Implemented Features**
 
 - Profile Creation: [Pass]
+- Secure Messaging: [Pass]
 - User Matching: [Pass]
 - User Reviews: [Fail]
-- Safety Measures: [Fail]
 - Reporting and Blocking: [Fail]
 - Community Standards: [Fail]
 
