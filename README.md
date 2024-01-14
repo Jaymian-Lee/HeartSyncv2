@@ -109,6 +109,8 @@ https://www.figma.com/file/wgF8prZ4caZOVC6NGJRsWr/HeartSync---Design?type=design
 - ## Use Case Diagram V1
     ![UseCase - HeartSync](https://github.com/Jaymian-Lee/HeartSync/assets/56151997/27b08c16-cb6d-4cd9-95da-5f4d467ce584)
 
+- ## Use Case Diagram V2
+![UseCaseV2 - HeartSync](https://github.com/Jaymian-Lee/HeartSyncv2/assets/56151997/5f32c47e-f0a1-40b3-8da4-1ec4e2c3152f)
 
 - ## Use Case Description V1
 ### Use Case 1: UC1 Account beheren
