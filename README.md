@@ -469,7 +469,11 @@ https://www.figma.com/file/wgF8prZ4caZOVC6NGJRsWr/HeartSync---Design?type=design
         *User_ID (Foreign Key referencing User)
 ![diagram-export-1-14-2024-10_14_30-PM](https://github.com/Jaymian-Lee/HeartSyncv2/assets/56151997/7fda3ef9-7f41-4098-bf47-5b8bd37a7cd1)
 
-    
+## Class Diagram
+
+![Class diagram - HeartSync](https://github.com/Jaymian-Lee/HeartSyncv2/assets/56151997/8d730f40-a3e4-4d29-b4b2-c5edf77dcfb7)
+
+
 ## Lijst met data
 Op basis van de informatie die je hebt verstrekt, kun je de volgende lijst met benodigde data opstellen:
 
