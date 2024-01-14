@@ -407,64 +407,54 @@ https://www.figma.com/file/wgF8prZ4caZOVC6NGJRsWr/HeartSync---Design?type=design
 |   1. Systeem toont een foutmelding. |
 |   2. Gebruiker wordt geadviseerd het opnieuw te proberen. |
 
-##Sequence Diagram
+## Sequence Diagram
 ![diagram-export-1-14-2024-9_51_00-PM](https://github.com/Jaymian-Lee/HeartSyncv2/assets/56151997/1091f4d4-5061-415f-af98-25226b638666)
 
 
-##Lijst met data
+## Lijst met data
 Op basis van de informatie die je hebt verstrekt, kun je de volgende lijst met benodigde data opstellen:
 
-1. **Voor Registratie:**
+1. **Registratie:**
    - Gebruikersnaam
    - E-mailadres
    - Wachtwoord
 
-2. **Voor Inloggen:**
+2. **Inloggen:**
    - Gebruikersnaam of E-mailadres
    - Wachtwoord
 
-3. **Voor Muziekinteresses:**
+3. **Muziekinteresses:**
    - Geselecteerde muziekinteresses (via buttons)
    - Algemene muziekvoorkeuren
    - Quizresultaten
 
-4. **Voor Profielinformatie:**
+4. **Profielinformatie:**
    - Naam
    - Leeftijd
    - Locatie
    - Profielfoto
-   - Gedetailleerde profielinformatie
+   - Profielinformatie
    - Privacyinstellingen
 
-5. **Voor Chats:**
+5. **Chats:**
    - Berichten
    - Foto's
    - Favoriete gesprekken
    - Quizresultaten van matches
 
-6. **Voor Matches en Zoeken:**
-   - Matches (geaccepteerd/afgewezen)
-   - Zoekcriteria (leeftijd, locatie, interesses)
-   - Gemeenschappelijke muziekinteresses met matches
-   - Feedback over de app
+6. **Matches**
+   - Matches
+   - Zoekcriteria
+   - Muziekinteresses
 
-7. **Voor App-instellingen:**
+7. **App-instellingen:**
    - Taalvoorkeur
-   - Notificatievoorkeuren (specifieke activiteiten)
+   - Notificatievoorkeuren
    - Donkere modusvoorkeur
-   - Biometrische gegevens (voor inloggen)
+   - Biometrische gegevens
 
-8. **Voor Dynamische Integratie van Features:**
-   - Mogelijkheid om nieuwe features dynamisch te integreren
-
-9. **Voor Accountbeheer:**
-   - Opties voor accountverwijdering
+8. **Accountbeheer:**
+   - Accountverwijdering
    - Deactiveringsmogelijkheden
-
-10. **Voor Geavanceerde Functionaliteiten:**
-    - Synchronisatie over verschillende apparaten
-    - Real-time meldingen
-    - Archiveren van gesprekken
-    - Profiel delen via externe platforms
 
 
